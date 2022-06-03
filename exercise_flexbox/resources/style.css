@@ -3,6 +3,7 @@ body {
     color: black;
     font-size: 1.375rem;
     text-align: center;
+    margin: 0;
 }
 
 header {
@@ -17,5 +18,5 @@ header {
 
 .navbar a {
     color: black;
-    font-size: 1.125rem;
+    font-size: .85rem;
 }
