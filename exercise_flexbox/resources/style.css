@@ -38,3 +38,37 @@ h3, h5 {
     margin: 0;
     padding: .625rem;
 }
+
+.portfolio {
+    padding-top: 1.5rem;
+    min-height: 31.25rem;
+}
+
+.portfolio-companies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company img {
+    height: auto;
+    width: 9.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .625rem;
+}
+
+.company span {
+    padding: .3125rem;
+    font-weight: bold;
+    text-align: center;
+    min-width: 15rem;
+    font-size: 1rem;
+}
