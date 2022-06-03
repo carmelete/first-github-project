@@ -91,3 +91,11 @@ h3, h5, h6 {
     height: auto;
     width: 12.5rem;
 }
+
+.contact {
+    padding-top: 1.5rem;
+}
+
+.copyright {
+    padding: 1.5rem 0;
+}
