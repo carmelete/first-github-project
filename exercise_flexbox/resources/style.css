@@ -34,7 +34,7 @@ header {
     margin: auto;
 }
 
-h3, h5 {
+h3, h5, h6 {
     margin: 0;
     padding: .625rem;
 }
@@ -71,4 +71,23 @@ h3, h5 {
     text-align: center;
     min-width: 15rem;
     font-size: 1rem;
+}
+
+.team {
+    display: flex;
+    background-image: url("../resources/images/blurred-road.jpg");
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .5rem;
+}
+
+.member {
+    color: white;
+    flex-basis: 17.5rem;
+    padding: .625rem;
+}
+
+.member img {
+    height: auto;
+    width: 12.5rem;
 }
